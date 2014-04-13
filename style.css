@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header ul {
+  list-style-type: none;
+  position: relative;
+  top: -45px;
+  text-transform: uppercase;
+  font-weight: 600;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+
+.left-nav {
+  float: left;
+}
+  .left-nav li {
+    float: left;
+    margin-left: 50px;
+  }
+.right-nav {
+  float: right;
+}
+  .right-nav li {
+    float: right;
+    margin-left: 50px;
+  }
+
+.title {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  right: 43px;
+  top: 50px;
+
+}
+  .sub-title {
+    font-weight: 600;
+    position: relative;
+    left: 7px;
+    top: -37px;
+    letter-spacing: 15px;
+    font-size: 16px;
+  }
+
+.hero {
+  /*width: 100%;*/
+  height: 650px;
+  background-image: url("bugatti-homepage-copy.png");
+
+}
+
+.body {
+  height: 400px;
+}
+
+.slogan {
+  margin-top: 132px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.separator {
+    margin-top: -70px;
+    font-weight: 100;
+    font-size: 200px;
+}
+
+
+/* HELPER CLASSES */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
